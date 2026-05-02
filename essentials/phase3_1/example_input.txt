@@ -1,0 +1,12 @@
+# example_input.txt
+
+This is a sample text input for testing the chunking strategies.
+It contains multiple sentences and paragraphs.
+
+This is a new paragraph.
+
+Section 1: Introduction
+This section introduces the topic.
+
+Section 2: Methodology
+This section describes the methods used. 

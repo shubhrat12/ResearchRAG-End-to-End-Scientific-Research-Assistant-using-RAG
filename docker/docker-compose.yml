@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+  # Grobid service for PDF parsing and metadata extraction
+  grobid:
+    image: lfoppiano/grobid:0.7.2
+    container_name: langchaingpt_grobid
+    ports:
+      - "8070:8070"
+    environment:
+      - JAVA_OPTS=-Xmx12g -Xms6g -XX:+UseG1GC -XX:+UseStringDeduplication
+    volumes:
+      - grobid_data:/opt/grobid/data
+    restart: unless-stopped
+    networks:
+      - langchain_network
+
+  # MongoDB for document storage (optional, can be used in future phases)
+  mongodb:
+    image: mongo:latest
+    container_name: langchaingpt_mongodb
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=password
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    restart: unless-stopped
+    networks:
+      - langchain_network
+
+volumes:
+  grobid_data:
+  mongodb_data:
+
+networks:
+  langchain_network:
+    driver: bridge 

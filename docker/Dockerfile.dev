@@ -1,0 +1,24 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Install development dependencies
+RUN pip install --no-cache-dir pytest pytest-cov black isort mypy flake8
+
+# Create non-root user
+RUN useradd -m appuser
+USER appuser
+
+# Set environment variables
+ENV PYTHONPATH=/app
+ENV PYTHONUNBUFFERED=1
+
+# Set up working directory for appuser
+WORKDIR /app
+
+# Default command starts a shell
+CMD ["bash"] 

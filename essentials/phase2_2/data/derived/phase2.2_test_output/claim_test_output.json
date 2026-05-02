@@ -1,0 +1,59 @@
+{
+  "text": "\n    Our results demonstrate a significant improvement over previous methods. The data suggest that\n    treatment A is more effective than treatment B. According to Smith et al. (2020), these findings\n    are consistent with previous work. We find that the proposed approach clearly outperforms baseline\n    methods. The evidence indicates that further research is needed, but these results are promising.\n    ",
+  "section_type": "results",
+  "claims": [
+    {
+      "text": "We find that the proposed approach clearly outperforms baseline\n    methods.",
+      "confidence": 0.93,
+      "sent_idx": 4,
+      "has_citation": false,
+      "has_hedging": false,
+      "hedge_words": [],
+      "has_boosters": true,
+      "booster_words": [
+        "clearly"
+      ],
+      "claim_verb": "find",
+      "evidence": []
+    },
+    {
+      "text": "Our results demonstrate a significant improvement over previous methods.",
+      "confidence": 0.9,
+      "sent_idx": 0,
+      "has_citation": false,
+      "has_hedging": false,
+      "hedge_words": [],
+      "has_boosters": false,
+      "booster_words": [],
+      "claim_verb": "demonstrate",
+      "evidence": []
+    },
+    {
+      "text": "The evidence indicates that further research is needed, but these results are promising.",
+      "confidence": 0.75,
+      "sent_idx": 5,
+      "has_citation": false,
+      "has_hedging": false,
+      "hedge_words": [],
+      "has_boosters": false,
+      "booster_words": [],
+      "claim_verb": "indicates",
+      "evidence": []
+    },
+    {
+      "text": "The data suggest that\n    treatment A is more effective than treatment B.",
+      "confidence": 0.6,
+      "sent_idx": 1,
+      "has_citation": false,
+      "has_hedging": true,
+      "hedge_words": [
+        "suggest"
+      ],
+      "has_boosters": false,
+      "booster_words": [],
+      "claim_verb": "suggest",
+      "evidence": []
+    }
+  ],
+  "claim_count": 4
+}

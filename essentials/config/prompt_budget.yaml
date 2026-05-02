@@ -1,0 +1,10 @@
+# All numbers are **tokens**
+max_ctx: 3600         # must match the loaded model (buffered)
+answer_reserve: 500   # space the LLM may use for its reply
+
+slices:
+  sys: 150            # system / rules
+  q:   80             # user question
+  fig: 300            # figure captions + numbers
+  ctx: 2400           # normal retrieved chunks
+  ref: 170            # reference list 

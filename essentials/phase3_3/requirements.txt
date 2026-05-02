@@ -1,0 +1,20 @@
+# Core dependencies
+numpy>=1.20.0
+pydantic>=1.8.0
+matplotlib>=3.4.0
+
+# ChromaDB and related dependencies
+chromadb>=0.4.13
+hnswlib>=0.7.0
+pypika>=0.48.9
+
+# Optional: For better performance with ChromaDB
+duckdb>=0.8.1
+
+# Embedding libraries (optional, but at least one should be installed)
+# scikit-learn>=1.0.0
+# sentence-transformers>=2.2.2
+# spacy>=3.4.0
+
+# Logging and utilities
+tqdm>=4.62.0 

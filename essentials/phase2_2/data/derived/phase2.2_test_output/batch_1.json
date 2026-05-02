@@ -1,0 +1,296 @@
+[
+  {
+    "text": "\n    The SARS-CoV-2 virus binds to ACE2 receptors in human cells. Researchers used machine learning\n    algorithms to analyze COVID-19 patient data from multiple hospitals. The study measured viral loads\n    and antibody levels in 250 patients. Our results demonstrate that the mRNA vaccines produced by\n    Pfizer and Moderna provide significant protection against severe disease. According to recent\n    clinical trials (Jones et al., 2021), vaccine efficacy remains high even against newer variants.\n    The data strongly suggest that vaccination reduces transmission rates. This research shows the\n    importance of continued genomic surveillance and vaccination efforts.\n    ",
+    "section_type": "results",
+    "entities": [
+      {
+        "text": "COVID-19",
+        "label": "ORG",
+        "start": 60,
+        "end": 68,
+        "sent_idx": 1,
+        "sentence": "Researchers used machine learning\n    algorithms to analyze COVID-19 patient data from multiple hospitals."
+      },
+      {
+        "text": "250",
+        "label": "CARDINAL",
+        "start": 58,
+        "end": 61,
+        "sent_idx": 2,
+        "sentence": "The study measured viral loads\n    and antibody levels in 250 patients."
+      },
+      {
+        "text": "Pfizer",
+        "label": "PERSON",
+        "start": 63,
+        "end": 69,
+        "sent_idx": 3,
+        "sentence": "Our results demonstrate that the mRNA vaccines produced by\n    Pfizer and Moderna provide significant protection against severe disease."
+      },
+      {
+        "text": "Moderna",
+        "label": "PERSON",
+        "start": 74,
+        "end": 81,
+        "sent_idx": 3,
+        "sentence": "Our results demonstrate that the mRNA vaccines produced by\n    Pfizer and Moderna provide significant protection against severe disease."
+      },
+      {
+        "text": "2021",
+        "label": "DATE",
+        "start": 55,
+        "end": 59,
+        "sent_idx": 4,
+        "sentence": "According to recent\n    clinical trials (Jones et al., 2021), vaccine efficacy remains high even against newer variants.\n    "
+      }
+    ],
+    "entity_count": 5,
+    "relations": [
+      {
+        "type": "uses_method",
+        "verb": "used",
+        "verb_lemma": "use",
+        "arguments": [
+          {
+            "role": "subject",
+            "text": "Researchers",
+            "root": "Researchers"
+          },
+          {
+            "role": "object",
+            "text": "machine learning\n    algorithms",
+            "root": "algorithms"
+          }
+        ],
+        "sent_idx": 1,
+        "sentence": "Researchers used machine learning\n    algorithms to analyze COVID-19 patient data from multiple hospitals.",
+        "confidence": 0.7
+      },
+      {
+        "type": "measured_quantity",
+        "verb": "measured",
+        "verb_lemma": "measure",
+        "arguments": [
+          {
+            "role": "subject",
+            "text": "The study",
+            "root": "study"
+          },
+          {
+            "role": "object",
+            "text": "viral loads",
+            "root": "loads"
+          }
+        ],
+        "sent_idx": 2,
+        "sentence": "The study measured viral loads\n    and antibody levels in 250 patients.",
+        "confidence": 0.7
+      }
+    ],
+    "relation_count": 2,
+    "claims": [
+      {
+        "text": "Our results demonstrate that the mRNA vaccines produced by\n    Pfizer and Moderna provide significant protection against severe disease.",
+        "confidence": 0.9,
+        "sent_idx": 3,
+        "has_citation": false,
+        "has_hedging": false,
+        "hedge_words": [],
+        "has_boosters": false,
+        "booster_words": [],
+        "claim_verb": "demonstrate",
+        "evidence": []
+      },
+      {
+        "text": "This research shows the\n    importance of continued genomic surveillance and vaccination efforts.",
+        "confidence": 0.75,
+        "sent_idx": 6,
+        "has_citation": false,
+        "has_hedging": false,
+        "hedge_words": [],
+        "has_boosters": false,
+        "booster_words": [],
+        "claim_verb": "shows",
+        "evidence": []
+      },
+      {
+        "text": "The data strongly suggest that vaccination reduces transmission rates.",
+        "confidence": 0.72,
+        "sent_idx": 5,
+        "has_citation": false,
+        "has_hedging": true,
+        "hedge_words": [
+          "suggest"
+        ],
+        "has_boosters": true,
+        "booster_words": [
+          "strongly"
+        ],
+        "claim_verb": "suggest",
+        "evidence": []
+      }
+    ],
+    "claim_count": 3,
+    "phase2_2_processed": true,
+    "phase2_2_timestamp": "2025-05-21 20:12:10"
+  },
+  {
+    "text": "\n    Our results demonstrate a significant improvement over previous methods. The data suggest that\n    treatment A is more effective than treatment B. According to Smith et al. (2020), these findings\n    are consistent with previous work. We find that the proposed approach clearly outperforms baseline\n    methods. The evidence indicates that further research is needed, but these results are promising.\n    ",
+    "section_type": "discussion",
+    "entities": [
+      {
+        "text": "Smith",
+        "label": "GPE",
+        "start": 13,
+        "end": 18,
+        "sent_idx": 2,
+        "sentence": "According to Smith et al."
+      },
+      {
+        "text": "al.",
+        "label": "GPE",
+        "start": 22,
+        "end": 25,
+        "sent_idx": 2,
+        "sentence": "According to Smith et al."
+      },
+      {
+        "text": "2020",
+        "label": "DATE",
+        "start": 1,
+        "end": 5,
+        "sent_idx": 3,
+        "sentence": "(2020), these findings\n    are consistent with previous work."
+      }
+    ],
+    "entity_count": 3,
+    "relations": [],
+    "relation_count": 0,
+    "claims": [
+      {
+        "text": "We find that the proposed approach clearly outperforms baseline\n    methods.",
+        "confidence": 0.93,
+        "sent_idx": 4,
+        "has_citation": false,
+        "has_hedging": false,
+        "hedge_words": [],
+        "has_boosters": true,
+        "booster_words": [
+          "clearly"
+        ],
+        "claim_verb": "find",
+        "evidence": []
+      },
+      {
+        "text": "Our results demonstrate a significant improvement over previous methods.",
+        "confidence": 0.9,
+        "sent_idx": 0,
+        "has_citation": false,
+        "has_hedging": false,
+        "hedge_words": [],
+        "has_boosters": false,
+        "booster_words": [],
+        "claim_verb": "demonstrate",
+        "evidence": []
+      },
+      {
+        "text": "The evidence indicates that further research is needed, but these results are promising.",
+        "confidence": 0.75,
+        "sent_idx": 5,
+        "has_citation": false,
+        "has_hedging": false,
+        "hedge_words": [],
+        "has_boosters": false,
+        "booster_words": [],
+        "claim_verb": "indicates",
+        "evidence": []
+      },
+      {
+        "text": "The data suggest that\n    treatment A is more effective than treatment B.",
+        "confidence": 0.6,
+        "sent_idx": 1,
+        "has_citation": false,
+        "has_hedging": true,
+        "hedge_words": [
+          "suggest"
+        ],
+        "has_boosters": false,
+        "booster_words": [],
+        "claim_verb": "suggest",
+        "evidence": []
+      }
+    ],
+    "claim_count": 4,
+    "phase2_2_processed": true,
+    "phase2_2_timestamp": "2025-05-21 20:12:10"
+  },
+  {
+    "text": "\n    The SARS-CoV-2 virus, responsible for COVID-19, is a novel coronavirus that emerged in Wuhan, China.\n    It binds to ACE2 receptors in human cells using its spike protein. Several vaccines like \n    Pfizer-BioNTech, Moderna, and Oxford-AstraZeneca have been developed to combat this disease.\n    ",
+    "section_type": "methods",
+    "entities": [
+      {
+        "text": "COVID-19",
+        "label": "ORG",
+        "start": 43,
+        "end": 51,
+        "sent_idx": 0,
+        "sentence": "\n    The SARS-CoV-2 virus, responsible for COVID-19, is a novel coronavirus that emerged in Wuhan, China.\n    "
+      },
+      {
+        "text": "Wuhan",
+        "label": "GPE",
+        "start": 92,
+        "end": 97,
+        "sent_idx": 0,
+        "sentence": "\n    The SARS-CoV-2 virus, responsible for COVID-19, is a novel coronavirus that emerged in Wuhan, China.\n    "
+      },
+      {
+        "text": "China",
+        "label": "GPE",
+        "start": 99,
+        "end": 104,
+        "sent_idx": 0,
+        "sentence": "\n    The SARS-CoV-2 virus, responsible for COVID-19, is a novel coronavirus that emerged in Wuhan, China.\n    "
+      },
+      {
+        "text": "Moderna",
+        "label": "GPE",
+        "start": 44,
+        "end": 51,
+        "sent_idx": 2,
+        "sentence": "Several vaccines like \n    Pfizer-BioNTech, Moderna, and Oxford-AstraZeneca have been developed to combat this disease.\n    "
+      },
+      {
+        "text": "Oxford-AstraZeneca",
+        "label": "ORG",
+        "start": 57,
+        "end": 75,
+        "sent_idx": 2,
+        "sentence": "Several vaccines like \n    Pfizer-BioNTech, Moderna, and Oxford-AstraZeneca have been developed to combat this disease.\n    "
+      }
+    ],
+    "entity_count": 5,
+    "relations": [
+      {
+        "type": "uses_method",
+        "verb": "using",
+        "verb_lemma": "use",
+        "arguments": [
+          {
+            "role": "object",
+            "text": "its spike protein",
+            "root": "protein"
+          }
+        ],
+        "sent_idx": 1,
+        "sentence": "It binds to ACE2 receptors in human cells using its spike protein.",
+        "confidence": 0.7
+      }
+    ],
+    "relation_count": 1,
+    "claims": [],
+    "claim_count": 0,
+    "phase2_2_processed": true,
+    "phase2_2_timestamp": "2025-05-21 20:12:11"
+  }
+]

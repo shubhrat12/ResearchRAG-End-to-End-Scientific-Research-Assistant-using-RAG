@@ -1,0 +1,142 @@
+{
+  "text": "\n    Researchers used machine learning to analyze the data. The study measured blood pressure levels\n    in 500 patients. The experiment evaluated the effectiveness of the treatment across multiple trials.\n    The results caused significant changes in medical protocols. Scientists compared traditional methods\n    and new approaches to determine the optimal strategy.\n    ",
+  "section_type": "methods",
+  "relations": [
+    {
+      "type": "uses_method",
+      "verb": "used",
+      "verb_lemma": "use",
+      "arguments": [
+        {
+          "role": "subject",
+          "text": "\n    Researchers",
+          "root": "Researchers"
+        },
+        {
+          "role": "object",
+          "text": "machine learning",
+          "root": "learning"
+        }
+      ],
+      "sent_idx": 0,
+      "sentence": "\n    Researchers used machine learning to analyze the data.",
+      "confidence": 0.7
+    },
+    {
+      "type": "measured_quantity",
+      "verb": "measured",
+      "verb_lemma": "measure",
+      "arguments": [
+        {
+          "role": "subject",
+          "text": "The study",
+          "root": "study"
+        },
+        {
+          "role": "object",
+          "text": "blood pressure levels",
+          "root": "levels"
+        }
+      ],
+      "sent_idx": 1,
+      "sentence": "The study measured blood pressure levels\n    in 500 patients.",
+      "confidence": 0.7
+    },
+    {
+      "type": "measured_quantity",
+      "verb": "evaluated",
+      "verb_lemma": "evaluate",
+      "arguments": [
+        {
+          "role": "subject",
+          "text": "The experiment",
+          "root": "experiment"
+        },
+        {
+          "role": "object",
+          "text": "the effectiveness",
+          "root": "effectiveness"
+        }
+      ],
+      "sent_idx": 2,
+      "sentence": "The experiment evaluated the effectiveness of the treatment across multiple trials.\n    ",
+      "confidence": 0.7
+    },
+    {
+      "type": "compared_things",
+      "verb": "evaluated",
+      "verb_lemma": "evaluate",
+      "arguments": [
+        {
+          "role": "subject",
+          "text": "The experiment",
+          "root": "experiment"
+        },
+        {
+          "role": "object",
+          "text": "the effectiveness",
+          "root": "effectiveness"
+        }
+      ],
+      "sent_idx": 2,
+      "sentence": "The experiment evaluated the effectiveness of the treatment across multiple trials.\n    ",
+      "confidence": 0.7
+    },
+    {
+      "type": "caused_effect",
+      "verb": "caused",
+      "verb_lemma": "cause",
+      "arguments": [
+        {
+          "role": "subject",
+          "text": "The results",
+          "root": "results"
+        },
+        {
+          "role": "object",
+          "text": "significant changes",
+          "root": "changes"
+        }
+      ],
+      "sent_idx": 3,
+      "sentence": "The results caused significant changes in medical protocols.",
+      "confidence": 0.7
+    },
+    {
+      "type": "compared_things",
+      "verb": "compared",
+      "verb_lemma": "compare",
+      "arguments": [
+        {
+          "role": "subject",
+          "text": "Scientists",
+          "root": "Scientists"
+        },
+        {
+          "role": "object",
+          "text": "traditional methods",
+          "root": "methods"
+        }
+      ],
+      "sent_idx": 4,
+      "sentence": "Scientists compared traditional methods\n    and new approaches to determine the optimal strategy.\n    ",
+      "confidence": 0.7
+    },
+    {
+      "type": "measured_quantity",
+      "verb": "determine",
+      "verb_lemma": "determine",
+      "arguments": [
+        {
+          "role": "object",
+          "text": "the optimal strategy",
+          "root": "strategy"
+        }
+      ],
+      "sent_idx": 4,
+      "sentence": "Scientists compared traditional methods\n    and new approaches to determine the optimal strategy.\n    ",
+      "confidence": 0.7
+    }
+  ],
+  "relation_count": 7
+}

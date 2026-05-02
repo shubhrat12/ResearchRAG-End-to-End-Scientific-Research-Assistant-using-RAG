@@ -1,0 +1,11 @@
+{
+  "total_documents": 3,
+  "total_entities": 13,
+  "total_relations": 3,
+  "total_claims": 7,
+  "processing_time": 0.12142658233642578,
+  "output_files": [
+    "data\\derived\\phase2.2_test_output\\batch_1.json",
+    "data\\derived\\phase2.2_test_output\\all_processed_docs.json"
+  ]
+}

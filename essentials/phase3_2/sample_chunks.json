@@ -1,0 +1,122 @@
+[
+  {
+    "id": "chunk1",
+    "text": "Abstract: Quantum entanglement is a physical phenomenon that occurs when a group of particles are generated, interact, or share spatial proximity in a way such that the quantum state of each particle of the group cannot be described independently of the state of the others, including when the particles are separated by a large distance. The topic of quantum entanglement has significant implications for quantum computing and quantum information theory.",
+    "source": "quantum_physics_review",
+    "metadata": {
+      "section": "abstract",
+      "paper_id": "qp-001",
+      "citation_count": 52,
+      "year": 2020,
+      "authors": ["Johnson, A.", "Smith, B."]
+    }
+  },
+  {
+    "id": "chunk2",
+    "text": "Introduction: The concept of quantum entanglement was first proposed by Einstein, Podolsky, and Rosen in their famous 1935 paper, and later expanded upon by Schrödinger. This property is at the heart of quantum mechanics and represents one of the most counterintuitive aspects of quantum theory. Entanglement enables quantum technologies that surpass classical limitations, including quantum cryptography, quantum teleportation, and quantum computing.",
+    "source": "quantum_physics_review",
+    "metadata": {
+      "section": "introduction",
+      "paper_id": "qp-001",
+      "citation_count": 52,
+      "year": 2020,
+      "authors": ["Johnson, A.", "Smith, B."]
+    }
+  },
+  {
+    "id": "chunk3",
+    "text": "Methods: To generate entangled photon pairs, we used a spontaneous parametric down-conversion (SPDC) process with a beta barium borate (BBO) crystal. The crystal was pumped with a 405nm laser diode to produce pairs of entangled photons at 810nm. The entanglement quality was verified using quantum state tomography, yielding a fidelity of 98.2% with the expected Bell state.",
+    "source": "entanglement_experiment",
+    "metadata": {
+      "section": "methods",
+      "paper_id": "qe-002",
+      "citation_count": 23,
+      "year": 2021,
+      "authors": ["Chen, L.", "Garcia, M.", "Wong, H."]
+    }
+  },
+  {
+    "id": "chunk4",
+    "text": "Results: Our quantum key distribution protocol based on entangled photons achieved a secure key rate of 1.5 kbit/s over a 100 km fiber link. The quantum bit error rate remained below 3% throughout the experiment, demonstrating the robustness of the protocol against environmental noise. These results represent a significant improvement over previous implementations that typically achieved rates of 0.5 kbit/s at similar distances.",
+    "source": "quantum_cryptography",
+    "metadata": {
+      "section": "results",
+      "paper_id": "qc-003",
+      "citation_count": 31,
+      "year": 2022,
+      "authors": ["Zhang, Y.", "Patel, R."]
+    }
+  },
+  {
+    "id": "chunk5",
+    "text": "Discussion: The observed quantum advantage in our algorithm scales quadratically with the problem size, consistent with theoretical predictions. This speedup is directly attributable to the quantum entanglement resource, as verified by our control experiments using separable states. The practical applications of this advantage include optimization problems in logistics, molecular simulation, and financial modeling.",
+    "source": "quantum_computing",
+    "metadata": {
+      "section": "discussion",
+      "paper_id": "qc-004",
+      "citation_count": 45,
+      "year": 2021,
+      "authors": ["Brown, K.", "Miller, J.", "Wilson, T."]
+    }
+  },
+  {
+    "id": "chunk6",
+    "text": "Quantum entanglement has proven valuable for quantum sensing applications. In particular, entangled photons can overcome the standard quantum limit, achieving Heisenberg-limited precision in phase estimation. Our experiments demonstrate this principle using a Mach-Zehnder interferometer with entangled photon pairs, achieving a phase sensitivity of Δφ = 0.03 radians, which is a factor of √N below the standard quantum limit for N=100 photons.",
+    "source": "quantum_sensing",
+    "metadata": {
+      "section": "applications",
+      "paper_id": "qs-005",
+      "citation_count": 18,
+      "year": 2022,
+      "authors": ["Anderson, E.", "Thomas, S."]
+    }
+  },
+  {
+    "id": "chunk7",
+    "text": "The field of quantum machine learning leverages quantum entanglement to process data in ways impossible for classical systems. Our implementation of a quantum support vector machine demonstrated a classification accuracy of 97.8% on the MNIST dataset, while requiring only 16 qubits. The entanglement between qubits enables the representation of correlations in high-dimensional feature spaces with exponentially fewer resources than classical approaches.",
+    "source": "quantum_machine_learning",
+    "metadata": {
+      "section": "methods",
+      "paper_id": "qml-006",
+      "citation_count": 36,
+      "year": 2023,
+      "authors": ["Lee, J.", "Kim, S.", "Rodriguez, M."]
+    }
+  },
+  {
+    "id": "chunk8",
+    "text": "Conclusion: Quantum entanglement remains one of the most powerful resources in quantum information science. Our review has highlighted its applications across quantum computing, quantum communication, and quantum sensing. Future research directions include developing more robust entanglement sources, extending entanglement distances for quantum networks, and creating larger entangled states for quantum computing. These advances will be crucial for realizing the full potential of quantum technologies in real-world applications.",
+    "source": "quantum_physics_review",
+    "metadata": {
+      "section": "conclusion",
+      "paper_id": "qp-001",
+      "citation_count": 52,
+      "year": 2020,
+      "authors": ["Johnson, A.", "Smith, B."]
+    }
+  },
+  {
+    "id": "chunk9",
+    "text": "Abstract: Deep learning has revolutionized machine learning by enabling the automatic extraction of hierarchical features from raw data. This paper presents a comprehensive review of deep learning architectures and their applications in various domains, including computer vision, natural language processing, and reinforcement learning. We also discuss the theoretical foundations, optimization methods, and practical considerations for implementing deep learning systems.",
+    "source": "deep_learning_review",
+    "metadata": {
+      "section": "abstract",
+      "paper_id": "dl-007",
+      "citation_count": 120,
+      "year": 2021,
+      "authors": ["Wang, Y.", "Taylor, R.", "Martinez, J."]
+    }
+  },
+  {
+    "id": "chunk10",
+    "text": "The interplay between quantum mechanics and machine learning has given rise to quantum neural networks. These networks utilize quantum entanglement to represent correlations between input features more efficiently than classical neural networks. Our implementation on a superconducting quantum processor demonstrated a 15% reduction in training time for comparable accuracy on a standard classification benchmark. The quantum advantage was most pronounced for highly correlated datasets.",
+    "source": "quantum_neural_networks",
+    "metadata": {
+      "section": "results",
+      "paper_id": "qnn-008",
+      "citation_count": 27,
+      "year": 2022,
+      "authors": ["Davis, M.", "Nguyen, T."]
+    }
+  }
+] 
